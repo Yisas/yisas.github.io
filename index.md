@@ -17,7 +17,7 @@ force and a real life example, by recording the magnus effect in action and comp
 
 * * *
 
-# How does the Magnus Effect work?
+# What is the Magnus Effect?
 
 When a ball is spinning within a fluid, most commonly air, one side of the ball drags the fluid in the direction of
 its rotation, while the other side of the ball is pushed by the air being dragged towards it. This result in a
@@ -32,6 +32,24 @@ _[Source](https://youtu.be/2OSrvzNW9FE)_
 
 * * *
 
-# How to use the program
+# How to use the simulation?
+
+Download either the compressed files for either [Windows]({{ site.baseurl}}/assets/binary/Magnus_Effect.zip) or 
+[Linux]({{ site.baseurl}}/assets/binary/Magnus_Effect.tar), unzip the files, then run the "MagnusEffect" executable. 
+The controls will be displayed in the GUI right away. 
 
 * * *
+
+# How does the simulation work?
+
+The simulation uses the forward Euler method. In this method, a simulation is started with a given set of initial conditions, 
+and then proceeds forward through fixed time step intervals where it must approximate its state after the next time step has 
+passed, using all of the known conditions of the previous one. Since this is a rigid body dynamics problem, the initial conditions 
+are the position, linear and angular velocity of the ball. Every time step the forces are computed, then applied to the rigid body 
+using Newton's laws to calculate these modified conditions in its forwards state. The Magnus force is calculated as Fm = S (w x v), 
+where:
+
+* w is the angular velocity of the ball.
+* v is the linear velocity of the ball.
+* S is the air resistance coefficient. The program uses an empirically calculated coefficient by default, though you may edit it 
+through the GUI.
