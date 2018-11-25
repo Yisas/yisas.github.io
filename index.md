@@ -25,7 +25,7 @@ sideways force that is proportinal to the angular and linear velocity of the bal
 deflection of air flow. The following video provides an improved visualization of the above:
 
 <video controls width="690" height="315">
-	<source src="http://localhost:4000/assets/video/magnus-effect-explanation.webm" type="video/webm">
+	<source src="{{site.baseurl}}assets/video/magnus-effect-explanation.webm" type="video/webm">
 </video>
 
 _[Source](https://youtu.be/2OSrvzNW9FE)_
