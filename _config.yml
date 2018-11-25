@@ -23,6 +23,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 show_downloads: true
 repository: proulxsamuel/magnus-effect
+project_source_url: https://github.com/proulxsamuel/magnus-effect
 
 # Build settings
 markdown: kramdown
