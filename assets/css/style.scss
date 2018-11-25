@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+aside#sidebar p { 
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-size: 22px;
+	margin-bottom: 0px;
+}
+
+aside#sidebar a {
+	font-size: 16px;
+}
