@@ -53,3 +53,30 @@ where:
 * v is the linear velocity of the ball.
 * S is the air resistance coefficient. The program uses an empirically calculated coefficient by default, though you may edit it 
 through the GUI.
+
+* * *
+
+# Simulation vs Reality
+
+In order to verify the accuracy of our simulation and compare its results with a real life model, live recordings of a ping pong ball 
+using various forms of backspin were taken. 
+
+{:.placeholder}
+Preview video goes here?
+
+You can learn more [here](./comparison).
+
+* * *
+
+# Demo
+
+You can see a video demonstration of the simulation in action by clicking [here](./demo/).
+
+* * *
+
+# Developed by
+
+* [Brandon Baran-Goldwax](https://github.com/BGoldwax)
+* [Jesus Imery](https://github.com/Yisas)
+* [Mathew Knappe](https://github.com/MatKnappe)
+* [Samuel Proulx](https://github.com/proulxsamuel)
