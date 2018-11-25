@@ -70,7 +70,7 @@ You can learn more [here](./comparison).
 
 # Demo
 
-You can see a video demonstration of the simulation in action by clicking [here](./demo/).
+You can see a video demonstration of the simulation in action by clicking [here](./demo).
 
 * * *
 

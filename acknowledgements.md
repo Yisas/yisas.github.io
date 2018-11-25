@@ -15,5 +15,5 @@ project, as the goal was to implement the physics simulation from scratch.
 # [NanoGUI](https://github.com/wjakob/nanogui)
 A minimalistic cross-platform GUI library for OpenGL.
 
-# [LearnOpenGL](https://learnopengl.com/)
+# [LearnOpenGL](https://learnopengl.com)
 An educational website for OpenGL from which some code is borrowed, namely for shaders and model loading.
