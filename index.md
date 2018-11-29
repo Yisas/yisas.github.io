@@ -56,10 +56,12 @@ through the GUI.
 
 * * *
 
-# Simulation vs Reality
+# [Simulation vs Reality](./comparison)
 
 In order to verify the accuracy of our simulation and compare its results with a real life model, live recordings of a ping pong ball 
-using various forms of backspin were taken. 
+using various forms of backspin were taken. The initial conditions of said recordings were then simulated, and statistical analysis 
+was conducted between both data sets to provide an estimation of the accuracy of the simulation. This allowed us to empirically produce
+a drag coefficient for our model.
 
 {:.placeholder}
 Preview video goes here?
