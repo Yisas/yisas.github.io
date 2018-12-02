@@ -18,5 +18,5 @@ A minimalistic cross-platform GUI library for OpenGL.
 # [LearnOpenGL](https://learnopengl.com)
 An educational website for OpenGL from which some code is borrowed, namely for shaders and model loading.
 
-#[Tracker](https://physlets.org/tracker/)
-A free video analysis and modeling tool that was used to track the ping pong ball in the experimantal recordings of the Magnus Effect.
+# [Tracker](https://physlets.org/tracker/)
+A free video analysis and modeling tool that was used to track the ping pong ball in the experimental recordings of the Magnus Effect.
