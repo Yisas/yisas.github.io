@@ -14,7 +14,7 @@ authors, respectively:
 * [Adair-Giordano](http://physics.wooster.edu/JrIS/Files/nowicki.pdf): for baseball
 * [John Wesson](https://books.google.ca/books/about/The_Science_of_Soccer.html?id=dGc8rt8IYdwC): for soccer
 
-# Statistical Analysis
+# Statistical analysis
 
 In order to run the statistical analysis between the model and reality described [here](./comparison), make sure "Show automation" 
 has been pressed. Star The subsequent window will allow you to "Start automation", which will begin simulating using the initial 
@@ -23,3 +23,13 @@ of the evaluated variables will update as the software iterates through them. "T
 how much time a simulation will last before moving on to the next experiment (iteration).
 
 ![Automation](/assets/img/automation-instructions.PNG)
+
+# Additional controls
+
+The application supports the following mouse and keyboard controls.
+
+* LMB: press to interact with the GUI
+* MMB: scroll to zoom in or out and hold to rotate the camera
+* RMB: hold to move the camera
+* TAB: press to toggle the GUI
+* SPACE: press to play or stop the simulation
