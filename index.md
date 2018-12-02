@@ -21,7 +21,7 @@ force and a real life example, by recording the magnus effect in action and comp
 
 When a ball is spinning within a fluid, most commonly air, one side of the ball drags the fluid in the direction of
 its rotation, while the other side of the ball is pushed by the air being dragged towards it. This result in a
-sideways force that is proportinal to the angular and linear velocity of the ball, given that its cause is an angular
+sideways force that is proportional to the angular and linear velocity of the ball, given that its cause is an angular
 deflection of air flow. The following video provides an improved visualization of the above:
 
 <video controls width="690" height="315">
@@ -32,9 +32,9 @@ _[Source](https://youtu.be/2OSrvzNW9FE)_
 
 * * *
 
-# How to use the simulation?
+# [How to use the simulation?](./howTo)
 
-Download either the compressed files for either [Windows]({{ site.baseurl}}/assets/binary/Magnus_Effect.zip) or 
+Download either the compressed binary files for either [Windows]({{ site.baseurl}}/assets/binary/Magnus_Effect.zip) or 
 [Linux]({{ site.baseurl}}/assets/binary/Magnus_Effect.tar), unzip the files, then run the "MagnusEffect" executable. 
 The controls will be displayed in the GUI right away. 
 

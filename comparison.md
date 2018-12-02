@@ -21,7 +21,7 @@ alternatives lead to two programs (Logger Pro and Tracker) specifically made for
 
 [Tracker](https://physlets.org/tracker/) allows adding calibrations and overlays to the video to allow for accurate measurements of all our needed data points.
 
-![Hello](/assets/img/tracker-1.png)
+![tracker screenshot](/assets/img/tracker-1.png)
 
 Each video was analyzed as follows
 1. Set measurement from a known value. This was done with measurements taken between dots.
