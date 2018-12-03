@@ -75,7 +75,9 @@ You can learn more [here](./comparison).
 
 # Demo
 
-You can see a video demonstration of the simulation in action by clicking [here](./demo).
+<video controls width="690" height="315">
+	<source src="{{site.baseurl}}assets/video/demo.webm" type="video/webm">
+</video>
 
 * * *
 
