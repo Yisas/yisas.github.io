@@ -40,7 +40,7 @@ The controls will be displayed in the GUI right away.
 
 * * *
 
-# How does the simulation work?
+# [How does the simulation work?](./implementation)
 
 The simulation uses the forward Euler method. In this method, a simulation is started with a given set of initial conditions, 
 and then proceeds forward through fixed time step intervals where it must approximate its state after the next time step has 
@@ -53,6 +53,8 @@ where:
 * v is the linear velocity of the ball.
 * S is the air resistance coefficient. The program uses an empirically calculated coefficient by default, though you may edit it 
 through the GUI.
+
+Further anecdotal description of the approach to the challenges of the implementation can be found [here](./implementation).
 
 * * *
 
