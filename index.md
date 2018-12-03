@@ -65,8 +65,9 @@ using various forms of backspin were taken. The initial conditions of said recor
 was conducted between both data sets to provide an estimation of the accuracy of the simulation. This allowed us to empirically produce
 a drag coefficient for our model.
 
-{:.placeholder}
-Preview video goes here?
+<video controls width="690" height="315">
+	<source src="{{site.baseurl}}assets/video/comparison.webm" type="video/webm">
+</video>
 
 You can learn more [here](./comparison).
 

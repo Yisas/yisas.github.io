@@ -44,5 +44,6 @@ horizontal distance and the peak height of the trajectory of the ball were compa
 [Mean absolute percentage deviation](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error). This allowed us to empirically produce 
 a drag coefficient that minimizes the error between the 2 data sets.
 
-{:.placeholder}
-Comparison video goes here
+<video controls width="690" height="315">
+	<source src="{{site.baseurl}}assets/video/comparison.webm" type="video/webm">
+</video>
