@@ -61,6 +61,15 @@
     }
   }
 
+  &--download {
+    background-color: $download-color;
+	color: #fff;
+
+	&:hover {
+        @include yiq-contrasted(mix(#000, $download-color, 20%));
+    }
+  }
+
   /* fills width of parent container */
   &--block {
     display: block;

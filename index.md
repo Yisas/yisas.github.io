@@ -9,16 +9,16 @@ header:
 excerpt: "Software Engineer - Computer Games Option"
 intro: 
   - excerpt: 'Recent Software Engineering graduate from Concordia University with X game jams
-  and 3 collegiate level game development competitions under his belt, looking to start my career in this industry.'
+  and 3 collegiate level game development competitions under my belt, looking to start my career in this industry.'
 feature_row:
   - image_path: /assets/images/game-splash-images/genesis-splash.png
     alt: "Genesis: Sands of Rebirth"
     title: "Genesis: Sands of Rebirth"
     excerpt: 'A 3D video game prototype produced in 10 weeks for the 2016 submission for the Ubisoft Game Lab competition.
 	An exploration game involving terraforming mechanics, player upgrade progression and the revitalization of a barren world.'
-    url: "#test-link"
+    url: "/genesis/"
     btn_class: "btn--primary"
-    download: "#test-link"
+    download: "/download/"
 feature_row2:
   - image_path: /assets/images/game-splash-images/time-paradogs-splash.png
     alt: "Time Paradogs"
@@ -27,7 +27,7 @@ feature_row2:
 	A 2-player puzzle game including time/space travel mechanics, 2 different player types/perspectives and adorable puppies.'
     url: "#test-link"
     btn_class: "btn--primary"
-    download: "#test-link"
+    download: "/download/"
 feature_row3:
   - image_path: /assets/images/game-splash-images/plight-knights-sight.png
     alt: "The Plight of Knights and Sight"
@@ -36,7 +36,7 @@ feature_row3:
 	A networked 2-player puzzle game where player's have different perceptions of the level they inhabit."
     url: "#test-link"
     btn_class: "btn--primary"
-    download: "#test-link"
+    download: "/download/"
 ---
 
 {% include feature_row id="intro" type="center" %}
