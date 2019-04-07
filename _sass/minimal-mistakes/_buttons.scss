@@ -70,6 +70,19 @@
     }
   }
 
+  &--github {
+    background-color: $github-color;
+	color: #fff;
+
+	&:hover {
+        @include yiq-contrasted(mix(white, $github-color, 20%));
+    }
+
+	&:visited {
+	color: #fff;
+	}
+  }
+
   /* fills width of parent container */
   &--block {
     display: block;

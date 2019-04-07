@@ -19,6 +19,7 @@ feature_row:
     url: "/genesis/"
     btn_class: "btn--primary"
     download: "/download/"
+    github: "https://github.com/yisas/ubisoftGameLab2016"
 feature_row2:
   - image_path: /assets/images/game-splash-images/time-paradogs-splash.png
     alt: "Time Paradogs"
@@ -28,6 +29,7 @@ feature_row2:
     url: "#test-link"
     btn_class: "btn--primary"
     download: "/download/"
+    github: "https://github.com/vladimirdlc/UbisoftGameLab2017"
 feature_row3:
   - image_path: /assets/images/game-splash-images/plight-knights-sight.png
     alt: "The Plight of Knights and Sight"
@@ -37,6 +39,7 @@ feature_row3:
     url: "#test-link"
     btn_class: "btn--primary"
     download: "/download/"
+    github: "https://github.com/yisas/ubisoftGameLab2018"
 ---
 
 {% include feature_row id="intro" type="center" %}

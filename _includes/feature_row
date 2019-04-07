@@ -52,6 +52,13 @@
 					</a>
 				{% endif %}
 
+				{% if f.github %}
+					<a href="{{ f.github }}" class="btn btn--github">
+						<i class="fab fa-github" style="margin-right:10px"></i>
+						{{ default: site.data.ui-text[site.locale].github_label | default: "View on Github" }}
+					</a>
+				{% endif %}
+
 			</p>
           {% endif %}
 
