@@ -16,6 +16,10 @@
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
+
+  p {
+	text-align:justify;
+  }
 }
 
 .archive__item {
