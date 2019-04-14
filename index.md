@@ -78,7 +78,7 @@ feature_row7:
     title: "Endeavour"
     excerpt: 'A 2D video game prototype produced for the Introduction to Game Development course offered at Concordia University.
 	The assignment was designed as small scale implementation of a [Star Force](https://en.wikipedia.org/wiki/Star_Force) clone, with a few added features.'
-    url: "/genesis/"
+    url: "/endeavour/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/COMP376SpaceAssignment/releases/download/v1.0/Endeavour.rar"
     github: "https://github.com/Yisas/COMP376SpaceAssignment"
