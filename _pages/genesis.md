@@ -54,14 +54,16 @@ ellipsoid of horizontal dimensions (a,b), any point (x,y) within a rectalngular 
 $$\frac{x^{2}}{a^{2}}+\frac{z^{2}}{b^{2}}<1$$, that point would be outside of the 2D projection of an ellipse on the terrain, meaning these points would not be modified. For the remaining points, the elevation is 
 determined as $$y(x,z)=\sqrt{(1-(\frac{x^{2}}{a^{2}})-(\frac{z^{2}}{b^{2}}))}*c$$, where c is effectively determining magnitude of a single elevation frame step.
 
-![Dig shapes](/assets/gifs/genesis-dig-shapes.gif)
+![Dig shapes](/assets/gifs/genesis/dig-shapes.gif)
 
 The ellipsoid shape sprouted the idea of having the player erect dune walls, which we hadn't considered during brainstorming. But ultimately the environmental puzzles that would use the mechanic were not included, and 
 so for simplicity's sake, the player was restricted to raising parabolic mounds.
 
-![Parabolic Mounds](/assets/gifs/genesis-dig-ingame.gif)
+![Parabolic Mounds](/assets/gifs/genesis/dig-ingame.gif)
 
+<a name="postmortem">
 ### Postmortem
+<a>
 
 Our team made a ton of mistakes on this project, some of which I've outlined above, but the one that I learned the most from became aparent towards the very end of development. Each member had spent time 
 individually working on tasks they were assigned to, and concerned themselves with polishing them as much as they could. However, despite most mechanics being playable in some capacity midway through the 10 week 
@@ -70,6 +72,6 @@ most egregiously, the game just wasn't all that fun. We had new insight on what 
 you're not careful, particularly with your team reinforcing what you think you know about what is fun about your game. Heck, we somehow made it so that most of the gameplay loop was literally watching grass grow, and 
 nobody noticed until we played it in full. This made me a big believer in the importance of rapid prototyping, which I would proselytize as much as possible in further group video game projects, always to great results.
 
-{% include figure image_path="/assets/images/genesis/beehive.gif" caption="Our AI enemies spawned from these \"beehives\" they used as shelter. It's not their turds, I swear." %}
+{% include figure image_path="/assets/gifs/genesis/beehive.gif" caption="Our AI enemies spawned from these \"beehives\" they used as shelter. It's not their turds, I swear." %}
 
 ![Credits](/assets/images/genesis/credits.png "Credits")

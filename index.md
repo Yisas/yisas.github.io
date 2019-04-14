@@ -3,8 +3,6 @@ layout: splash
 author_profile: true
 
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
   overlay_image: /assets/images/banner.png
 excerpt: "Software Engineer - Computer Games Option"
 intro: 
@@ -16,7 +14,7 @@ feature_row:
     title: "The Plight of Knights and Sight"
     excerpt: "A 3D video game prototype produced in 10 weeks for the 2018 submission for the Ubisoft Game Lab competition.
 	A networked 2-player puzzle game where player's have different perceptions of the level they inhabit."
-    url: "#test-link"
+    url: "/plight/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/UbisoftGameLab2018/releases/download/untagged-6aeb52f3482e4392eccd/A.Plight.of.Knights.and.Sight.rar"
     github: "https://github.com/yisas/ubisoftGameLab2018"
