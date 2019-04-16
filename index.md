@@ -89,7 +89,7 @@ feature_row8:
     title: "Limb Wars"
     excerpt: 'A 2D video game prototype produced for the Introduction to Game Development course offered at Concordia University.
 	A 2-player PVP video game prototype inspired by [Nidhogg](https://en.wikipedia.org/wiki/Nidhogg_(video_game)), with a twist: your most effective weapon is your own limbs.'
-    url: "/genesis/"
+    url: "/limb-wars/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/COMP376SpaceAssignment/releases/download/v1.0/Endeavour.rar"
     github: "https://github.com/Yisas/COMP376Project"
