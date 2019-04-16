@@ -24,7 +24,6 @@ feature_row2:
     title: "Time Paradogs"
     excerpt: 'A 3D video game prototype produced in 10 weeks for the 2017 submission for the Ubisoft Game Lab competition.
 	A 2-player puzzle game including time/space travel mechanics, 2 different player types/perspectives and adorable puppies.'
-    url: "#test-link"
     btn_class: "btn--primary"
     download: "/download/"
     github: "https://github.com/vladimirdlc/UbisoftGameLab2017"
@@ -45,7 +44,6 @@ feature_row4:
     title: "Where the Light Shines"
     excerpt: 'A 3D video game prototype produced in 48 hours for the [2019 Global Game Jam hosted at ETS](https://globalgamejam.org/2019/jam-sites/montr%C3%A9al-game-jam-2019-%C3%A9ts).
 	A co-op experience where one player must guide another through a treacherous boat journey.'
-    url: "/genesis/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/GGJ2019/releases/download/1.0/Where.the.Light.Shines.zip"
     github: "https://github.com/Yisas/GGJ2019"
@@ -56,7 +54,6 @@ feature_row5:
     title: "Chameleon CAT-Astrophe"
     excerpt: 'A 2D video game prototype produced in 48 hours for the [13th edition of the NAD Creative Jam](https://itch.io/jam/creative-jam-13e-edition).
 	STILL NEED TO WRITE THIS BLURB'
-    url: "/genesis/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/NADCreativeJam2019/releases/download/1.0/Chameleon.CAT-Astrophe.zip"
     github: "https://github.com/Yisas/NADCreativeJam2019"
@@ -67,7 +64,6 @@ feature_row6:
     title: "Pipe Dream"
     excerpt: 'A 2D video game prototype produced in 48 hours for the [12th edition of the NAD Creative Jam](https://itch.io/jam/creative-jam-12).
 	A puzzle-platformer where the player travels through the semi-ruined dreamscape of a pipe world, collecting stray memories with their friendly drone'
-    url: "/genesis/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/NADCreativeJam2018/releases/download/v1.0/Pipe.Dream.rar"
     github: "https://github.com/Yisas/NADCreativeJam2018"
@@ -100,7 +96,6 @@ feature_row9:
     title: "El Viaje"
     excerpt: 'A personal project developed for the purpose of learning Unity.
 	A 2D platformer featuring my oldest friends as playable characters, where I used the gameplay to sublty (and not so subtly) poke fun at them.'
-    url: "/genesis/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/Viaje/releases/download/v1.0/Viaje.rar"
     github: "https://github.com/Yisas/Viaje"

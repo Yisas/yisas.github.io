@@ -42,25 +42,26 @@
             </div>
           {% endif %}
 
+		  <p class="flex-space-evenly">
           {% if f.url %}
-            <p class="flex-space-evenly"><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            <a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+		  {% endif %}
 			
-				{% if f.download %}
-					<a href="{{ f.download }}" class="btn btn--download">
-						<i class="fas fa-download" style="margin-right:10px"></i>
-						{{ default: site.data.ui-text[site.locale].download_label | default: "Download" }}
-					</a>
-				{% endif %}
+		  {% if f.download %}
+				<a href="{{ f.download }}" class="btn btn--download">
+					<i class="fas fa-download" style="margin-right:10px"></i>
+					{{ default: site.data.ui-text[site.locale].download_label | default: "Download" }}
+				</a>
+		  {% endif %}
 
-				{% if f.github %}
-					<a href="{{ f.github }}" class="btn btn--github">
-						<i class="fab fa-github" style="margin-right:10px"></i>
-						{{ default: site.data.ui-text[site.locale].github_label | default: "View on Github" }}
-					</a>
-				{% endif %}
-
-			</p>
-          {% endif %}
+		  {% if f.github %}
+				<a href="{{ f.github }}" class="btn btn--github">
+					<i class="fab fa-github" style="margin-right:10px"></i>
+					{{ default: site.data.ui-text[site.locale].github_label | default: "View on Github" }}
+				</a>
+		  {% endif %}
+          
+		  </p>
 
         </div>
       </div>
