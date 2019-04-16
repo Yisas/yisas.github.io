@@ -100,6 +100,17 @@ feature_row9:
     download: "https://github.com/Yisas/Viaje/releases/download/v1.0/Viaje.rar"
     github: "https://github.com/Yisas/Viaje"
 
+feature_row10:
+  - image_path: /assets/gifs/keyframe-interpolation/wave.gif
+    alt: "Keyframe Interpolation"
+    title: "Keyframe Interpolation"
+    excerpt: 'An assignment for the Animation for Computer Games course offered at Concordia University. 
+	A OpenGL demo that allows you to create keyframe animations to compare different rotation representations and interpolation methods.'
+    url: "/keyframe-interpolation/"
+    btn_class: "btn--primary"
+    download: "https://github.com/Yisas/COMP477-Key-Frame-Animation/releases/download/1.0/Keyframe.Interpolation.zip"
+    github: "https://github.com/Yisas/COMP477-Key-Frame-Animation"
+
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -121,3 +132,5 @@ feature_row9:
 {% include feature_row id="feature_row8" type="right" %}
 
 {% include feature_row id="feature_row9" type="left" %}
+
+{% include feature_row id="feature_row10" type="right" %}
