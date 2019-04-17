@@ -3,6 +3,8 @@ title: "Genesis: Sands of Rebirth"
 layout: posts
 permalink: /genesis/
 author_profile: true 
+download: "https://github.com/Yisas/UbisoftGameLab2016/releases/download/untagged-e75f9e90c2caad48efed/Genesis.zip"
+github: "https://github.com/yisas/ubisoftGameLab2016"
 ---
 This was my team's submission for the [2016 Ubisoft Game Lab competition](https://montreal.ubisoft.com/en/ubisoft-game-lab-competition-2016/), where university level contestants 
 are placed into groups of 8 developers and challenged to create a video game prototype within 10 weeks. This year's theme was "Ocean", and the technical mandate included requiremets 

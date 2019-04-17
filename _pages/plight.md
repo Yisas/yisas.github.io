@@ -3,6 +3,8 @@ title: "The Plight of Knights and Sight"
 layout: posts
 permalink: /plight/
 author_profile: true 
+github: "https://github.com/yisas/ubisoftGameLab2018"
+download: "https://github.com/Yisas/UbisoftGameLab2018/releases/download/untagged-6aeb52f3482e4392eccd/A.Plight.of.Knights.and.Sight.rar"
 ---
 This was my team's submission for the [2018 Ubisoft Game Lab competition](https://montreal.ubisoft.com/en/ubisoft-game-lab-competition-2018-winners/), where university level contestants 
 are placed into groups of 8 developers and challenged to create a video game prototype within 10 weeks. It received nominations in the best game design, best user experience and best 

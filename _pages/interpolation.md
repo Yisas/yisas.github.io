@@ -3,6 +3,8 @@ title: "Keyframe Animation & Interpolation Methods"
 layout: posts
 permalink: /keyframe-interpolation/
 author_profile: true 
+download: "https://github.com/Yisas/COMP477-Key-Frame-Animation/releases/download/1.0/Keyframe.Interpolation.zip"
+github: "https://github.com/Yisas/COMP477-Key-Frame-Animation"
 ---
 This is an assignment for the Animation for Computer Games course. It is a OpenGL implementation of 4 keyframe interpolation modes: linear interpolation of rotation matrices, linear interpolation of euler angles, 
 liner interpolation of quaternions and spherical interpolation of quaternions.

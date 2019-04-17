@@ -1,0 +1,17 @@
+<div class="sidebar__right sticky">
+
+    {% if page.github %}
+	  <a href="{{ page.github }}" class="btn btn--github">
+		<i class="fab fa-github"></i>
+		{{ default: site.data.ui-text[site.locale].github_label | default: "View on Github" }}
+	  </a>
+	 {% endif %}
+
+	 {% if page.download %}
+		<a href="{{ page.download }}" class="btn btn--download" style="margin-top:20px;">
+			<i class="fas fa-download"></i>
+			{{ default: site.data.ui-text[site.locale].download_label | default: "Download" }}
+		</a>
+	{% endif %}
+
+</div>

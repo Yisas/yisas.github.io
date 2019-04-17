@@ -3,6 +3,8 @@ title: "Endeavour"
 layout: posts
 permalink: /endeavour/
 author_profile: true 
+download: "https://github.com/Yisas/COMP376SpaceAssignment/releases/download/v1.0/Endeavour.rar"
+github: "https://github.com/Yisas/COMP376SpaceAssignment"
 ---
 Endeavour is a 2D video game prototype produced for the Introduction to Game Development course offered at Concordia University. The assignment was designed as small 
 scale implementation of a Star Force clone, with a few added features. It also needed to include "bullet hell" mode where bullets wraped around the screen, and we were 
