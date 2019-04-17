@@ -4,16 +4,18 @@ author_profile: true
 
 header:
   overlay_image: /assets/images/banner.png
-excerpt: "Software Engineer - Computer Games Option"
+  excerpt: "Software Engineer - Computer Games Option"
 intro: 
-  - excerpt: 'Recent Software Engineering graduate from Concordia University with X game jams
-  and 3 collegiate level game development competitions under my belt, looking to start my career in this industry.'
+  - excerpt: 'Recent Software Engineering, computer games option ungraduate from Concordia University with 7 game jams and 3 collegiate level game 
+  development competitions under my belt, looking to start my career in this industry. This website is where I showcase some of my projects and write 
+  about some of them for posterity.'
 feature_row:
   - image_path: /assets/images/game-splash-images/plight-knights-sight.png
     alt: "The Plight of Knights and Sight"
     title: "The Plight of Knights and Sight"
     excerpt: "A 3D video game prototype produced in 10 weeks for the 2018 submission for the Ubisoft Game Lab competition.
-	A networked 2-player puzzle game where player's have different perceptions of the level they inhabit."
+	A networked 2-player puzzle game where player's have different perceptions of the level they inhabit.
+	2 Xbox controllers and a LAN connection is required."
     url: "/plight/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/UbisoftGameLab2018/releases/download/untagged-6aeb52f3482e4392eccd/A.Plight.of.Knights.and.Sight.rar"
@@ -23,7 +25,8 @@ feature_row2:
     alt: "Time Paradogs"
     title: "Time Paradogs"
     excerpt: 'A 3D video game prototype produced in 10 weeks for the 2017 submission for the Ubisoft Game Lab competition.
-	A 2-player puzzle game including time/space travel mechanics, 2 different player types/perspectives and adorable puppies.'
+	A 2-player puzzle game including time/space travel mechanics, 2 different player types/perspectives and adorable puppies.
+	2 screens and 2 Xbox controllers required.'
     btn_class: "btn--primary"
     download: "/download/"
     github: "https://github.com/vladimirdlc/UbisoftGameLab2017"
@@ -32,7 +35,8 @@ feature_row3:
     alt: "Genesis: Sands of Rebirth"
     title: "Genesis: Sands of Rebirth"
     excerpt: 'A 3D video game prototype produced in 10 weeks for the 2016 submission for the Ubisoft Game Lab competition.
-	An exploration game involving terraforming mechanics, player upgrade progression and the revitalization of a barren world.'
+	An exploration game involving terraforming mechanics, player upgrade progression and the revitalization of a barren world.
+	1 Xbox controller required.'
     url: "/genesis/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/UbisoftGameLab2016/releases/download/untagged-e75f9e90c2caad48efed/Genesis.zip"
@@ -43,7 +47,8 @@ feature_row4:
     alt: "Where the Light Shines"
     title: "Where the Light Shines"
     excerpt: 'A 3D video game prototype produced in 48 hours for the [2019 Global Game Jam hosted at ETS](https://globalgamejam.org/2019/jam-sites/montr%C3%A9al-game-jam-2019-%C3%A9ts).
-	A co-op experience where one player must guide another through a treacherous boat journey.'
+	A co-op experience where one player must guide another through a treacherous boat journey.
+	1-2 Xbox controller(s) required.'
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/GGJ2019/releases/download/1.0/Where.the.Light.Shines.zip"
     github: "https://github.com/Yisas/GGJ2019"
@@ -52,8 +57,9 @@ feature_row5:
   - image_path: /assets/images/game-splash-images/chameleon-cat-astrophe.png
     alt: "Chameleon CAT-Astrophe"
     title: "Chameleon CAT-Astrophe"
-    excerpt: 'A 2D video game prototype produced in 48 hours for the [13th edition of the NAD Creative Jam](https://itch.io/jam/creative-jam-13e-edition).
-	STILL NEED TO WRITE THIS BLURB'
+    excerpt: "A 3D video game prototype produced in 48 hours for the [13th edition of the NAD Creative Jam](https://itch.io/jam/creative-jam-13e-edition).
+	A pet chameleon's cage is broken and now it can finally be free, as long as he can avoid the cats that are also living in the same house.
+	1 Xbox controller required."
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/NADCreativeJam2019/releases/download/1.0/Chameleon.CAT-Astrophe.zip"
     github: "https://github.com/Yisas/NADCreativeJam2019"
@@ -84,7 +90,8 @@ feature_row8:
     alt: "Limb Wars"
     title: "Limb Wars"
     excerpt: 'A 2D video game prototype produced for the Introduction to Game Development course offered at Concordia University.
-	A 2-player PVP video game prototype inspired by [Nidhogg](https://en.wikipedia.org/wiki/Nidhogg_(video_game)), with a twist: your most effective weapon is your own limbs.'
+	A 2-player PVP video game prototype inspired by [Nidhogg](https://en.wikipedia.org/wiki/Nidhogg_(video_game)), with a twist: your most effective weapon is your own limbs.
+	2 Xbox controllers required.'
     url: "/limb-wars/"
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/COMP376SpaceAssignment/releases/download/v1.0/Endeavour.rar"

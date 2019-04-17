@@ -6,6 +6,12 @@ author_profile: true
 github: "https://github.com/yisas/ubisoftGameLab2018"
 download: "https://github.com/Yisas/UbisoftGameLab2018/releases/download/untagged-6aeb52f3482e4392eccd/A.Plight.of.Knights.and.Sight.rar"
 ---
+### Technology Requirements
+
+2 Xbox controllers and a LAN connection of 2 players is required.
+
+### Summary
+
 This was my team's submission for the [2018 Ubisoft Game Lab competition](https://montreal.ubisoft.com/en/ubisoft-game-lab-competition-2018-winners/), where university level contestants 
 are placed into groups of 8 developers and challenged to create a video game prototype within 10 weeks. It received nominations in the best game design, best user experience and best 
 overall prototype categories. This year's theme was "Change the world" (in a social context) and the technical mandate included required the game to be executed in 3D and have a networked 
@@ -59,7 +65,7 @@ object was instantiated and thrown from the desired position. Except, well, surp
 So yeah, as soon as latency got bad the spawning of the object was very noticeable. I wanted to make sure this was all spotless since I had no idea what the connection on the demo site was going to be like, 
 especially with a bunch of other games on the same LAN. But that's ok, nothing a little object pooling won't fix.
 
-{% include figure image_path="/assets/gifs/plight/object-pooling.gif" caption="Don't look up! (except you can't, at least not at that angle)." %}
+{% include figure image_path="/assets/gifs/plight/object-pooling.gif" caption="Don't look up! Except you can't, but if you could, you'd notice the pop-in of the pooled vases (top right side)." %}
 
 ### Obligatory bloopers
 
