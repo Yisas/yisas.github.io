@@ -7,7 +7,7 @@ header:
   excerpt: "Software Engineer - Computer Games Option"
 intro: 
   - excerpt: 'Recent Software Engineering, computer games option ungraduate from Concordia University with 7 game jams and 3 collegiate level game 
-  development competitions under my belt, looking to start my career in this industry. This website is where I showcase some of my projects and write 
+  development competitions under my belt, looking to start my career in this industry. This website is where I showcase my projects and write 
   about some of them for posterity.'
 feature_row:
   - image_path: /assets/images/game-splash-images/plight-knights-sight.png

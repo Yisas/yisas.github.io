@@ -20,7 +20,7 @@ Genesis is an exploration game where the player (Damu) must revitalize a barren 
 while fending off AI fauna that wants to consume any vegetation in sight.
 
 The player can control the elements, allowing them to terraform the terrain to reach other areas, as well as fend off the animals that try to consume the limited and much needed vegetation. 
-They can also wanipulate the wind to perform a basic attack.
+They can also manipulate the wind to perform a basic attack.
 
 {% include video id="-DSK2mk6QYQ" provider="youtube" %}
 ## Before joining this project
@@ -38,7 +38,7 @@ After the first week of brainstorming and delibarating over what the game would 
 Initially the game was much more puzzle oriented, and we had this very misguided idea that procedurally shifting terrain was going to play into the challenges. It was the typical error rookies make of 
 having overscoped features that sound cool, without a good enough plan of how they would contribute to the fun of the game to make it worth the effort. 
 
-I moved on to some some exploratory work, where I looked at a few papers on mathematical simulations of dune migration. Some of them were good enough to work on, but at one point I landed on one about sand 
+I moved on to some exploratory work, where I looked at a few papers on mathematical simulations of dune migration. Some of them were good enough to work on, but at one point I landed on one about sand 
 ripples waves that was accompanied by some sample MATLAB code. I then made some small edits using values from another paper where it had some estimations of horizontal-to-vertical translation ratios of individual 
 particles. It was much less impressive than it sounds, though I still wish I had kept the reference or the code, but those got lost in one of the school lab wipes after the competition, before I had the foresight that 
 I might write a blog like this someday. What remains is some videos I showed my teammates of the work in progress, though these have a flaw where particles leaving one end of the screen were re-entering on 

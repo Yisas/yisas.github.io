@@ -13,7 +13,7 @@ github: "https://github.com/Yisas/COMP376Project"
 ### Summary
 
 Limb Wars is a 2D video game prototype produced for the Introduction to Game Development course offered at Concordia University, by a team of 4 programmers. A 2-player PVP 
-video game prototype inspired by Nidhogg, except ypur own limbs serve simultaneously as both your weapons and health points. Get hit once, lose an arm. Get hit a second time, 
+video game prototype inspired by Nidhogg, except your own limbs serve simultaneously as both your weapons and health points. Get hit once, lose an arm. Get hit a second time, 
 now you lost a leg. Wanna hit your enemy with something other than your punny fists? Use an arm, just be careful because you only have two of them.
 
 {% include figure image_path="/assets/images/limb-wars/limb-wars.png" %}
