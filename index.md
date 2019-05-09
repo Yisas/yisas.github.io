@@ -6,9 +6,10 @@ header:
   overlay_image: /assets/images/banner.png
   excerpt: "Software Engineer - Computer Games Option"
 intro: 
-  - excerpt: 'Recent Software Engineering, computer games option ungraduate from Concordia University with 7 game jams and 3 collegiate level game 
-  development competitions under my belt, looking to start my career in this industry. This website is where I showcase my projects and write 
-  about some of them for posterity.'
+  - image_path: /assets/images/bio-photo.png
+  - excerpt: 'Recent B.Eng Software Engineering - Computer Games option ungraduate from Concordia University. With 7 game jams and 3 collegiate level game development competitions
+    done throughout the course of my studies, I''ve been hooked on this craft for a while, and now looking to start my career in this industry. This website is where I showcase my 
+    projects and write about some of them for posterity.'
 feature_row:
   - image_path: /assets/images/game-splash-images/plight-knights-sight.png
     alt: "The Plight of Knights and Sight"
@@ -47,7 +48,7 @@ feature_row4:
     alt: "Where the Light Shines"
     title: "Where the Light Shines"
     excerpt: 'A 3D video game prototype produced in 48 hours for the [2019 Global Game Jam hosted at ETS](https://globalgamejam.org/2019/jam-sites/montr%C3%A9al-game-jam-2019-%C3%A9ts).
-	A co-op experience where one player must guide another through a treacherous boat journey.
+	A co-op experience where one player must guide another through a treacherous boat journey. Winner of the Best Multiplayer category.
 	1-2 Xbox controller(s) required.'
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/GGJ2019/releases/download/1.0/Where.the.Light.Shines.zip"
@@ -119,25 +120,25 @@ feature_row10:
     github: "https://github.com/Yisas/COMP477-Key-Frame-Animation"
 
 ---
-
+----
 {% include feature_row id="intro" type="center" %}
-
-{% include feature_row id="feature_row" type="left" %}
-
-{% include feature_row id="feature_row2" type="right" %}
 
 {% include feature_row id="feature_row3" type="left" %}
 
+{% include feature_row id="feature_row2" type="right" %}
+
+{% include feature_row id="feature_row" type="left" %}
+
 {% include feature_row id="feature_row4" type="right" %}
-
-{% include feature_row id="feature_row5" type="left" %}
-
-{% include feature_row id="feature_row6" type="right" %}
 
 {% include feature_row id="feature_row7" type="left" %}
 
 {% include feature_row id="feature_row8" type="right" %}
 
-{% include feature_row id="feature_row9" type="left" %}
+{% include feature_row id="feature_row10" type="left" %}
 
-{% include feature_row id="feature_row10" type="right" %}
+{% include feature_row id="feature_row5" type="right" %}
+
+{% include feature_row id="feature_row6" type="left" %}
+
+{% include feature_row id="feature_row9" type="right" %}

@@ -34,12 +34,12 @@ We ignored the GGJ mandate completely and pretended like it was the game lab's. 
 playtesters on-site and began iterating using the already built game. This proved invaluable for the end product, and in my opinion was a big reason why we received praise in the game design 
 and user experience categories, since it allowed us to leverage our game designer talents in full.
 
-### Networking "woes", AKA one of dumbest things I've tried to do
+### Networking "woes" & tunnel vision
 
 I had taken point on the implementation of the third person character controller and mechanics for the [first prototype](https://github.com/yisas/ggj2018), but now that that was done, I began 
 transitioning what was already there to a networked 2-player game as opposed to a dual screen one, while my teammates worked on new mechanics. It was mostly painless except for one thing: 
 players being able to carry objects. These throwable objects were an important part of the game; they allowed players to lock down pressure plates and mark parts of the world that the other 
-player couldn't see. Thus, they had to be a networked physics component. Or well, that's what I thought, because this was the worst case of tunnel vision I've ever gone through as a programmer. 
+player couldn't see. Thus, they had to be a networked physics component. Or well, that's what I thought at first.
 
 In the non-networked prototype each crate was a simple textured primitive with a rigidbody, and when it came time to carry it, it was connected to the player through one of Unity's 
 joint objects. This not only produced the desired effect of moving with the player, it also allowed for the built-in physics engine to detect if force/torque between the carried object and the player 
@@ -50,11 +50,12 @@ objects generated undesired artifacts, like stuttering or dragging, which could 
 {% include figure image_path="/assets/gifs/plight/crate-carry.gif" caption="Am I carrying that crate, or is it chasing me? This is much more noticeable on a fullscreen game." %}
 
 The problem is that for some reason, I tried to make the joints work. I messed with the interpolation values, then wrote some code to detect and eliminate "noise" stutter translations. It was 
-really, really dumb. Just following the inertia of what was already there instead of questioning it when an issue came up. Childing a networked component to another was creating its own problems, 
-and it took me a little more time than I'd like to admit to resort to the old "rubber ducky" method to ask myself what was the point of carrying this object through physics. So, I went for the safe route 
-that could never cause problems: turn on a non-synced object with no physics attached to it that was just the mesh and the texture. It was obvious, but I guess I was low on coffee or something.
+a bit of tunnel vision that lasted longer than I would like to admit. Childing a networked component to another was creating its own problems, but I eventually regained my sanity and resorted to the old 
+"rubber ducky" method to ask myself what was the point of carrying this object through physics. So, I went for the safe route that could never cause problems: turn on a non-synced object with no physics 
+attached to it that was just the mesh and the texture. It was obvious, but I guess I was low on coffee or something. It ultimately helped me improve at not falling into the trap of following the inertia 
+of an idea that doesn't work anymore in the given context.
 
-{% include figure image_path="/assets/gifs/plight/fake-objects.gif" caption="Yes, they're fake (my real ones didn't try to kill me, they just stuttered)." %}
+{% include figure image_path="/assets/gifs/plight/fake-objects.gif" caption='<a href="https://www.youtube.com/watch?v=7qKcJF4fOPs">Senator Vreenak would aprove</a>' %}
 
 My favorite part about the above is that it wouldn't lead to any unexpected surprises with the synced UNET components since I had just reduced the synced components during the carry state to 
 just the player. I then made it so that the object that was being picked up was destroyed as the fake object was turned on, and when the object was supposed to be thrown, a new, synced, physics enabled 

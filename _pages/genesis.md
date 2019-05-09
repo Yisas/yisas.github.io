@@ -51,8 +51,7 @@ direction of the simulated wind, which made it look better than the videos below
 It was at this point that we had our first mentor meeting with the Ubisoft employees that were assigned 4 hours a month to give us some advice. They took one look at our idea, and said: "cool, but... how is this 
 going to make your game fun? Why are you doing this again?" Our answers were of course unsatisfactory, and they made us see that not only was this a big challenge for a bunch of students on a full-time courseload
 who haven't made a prototype of this size before, but the payoff for it just wasn't there. Making procedurally generated content work in a way that's entretaining for the player takes a lot of fine tuning, and the 
-environmental puzzles this system was supposed to interact with hadn't been designed yet, so it was all very etheral at this point. The feature was dropped, and wisely so. In retrospect, the performance concerns of 
-modyfing the terrain mesh at runtime on the scale that was necessary for the simulation (which was how we ultimately did the terraforming mechanic) were probably beyond our skils at the time.
+environmental puzzles this system was supposed to interact with hadn't been designed yet, so it was all very etheral at this point. The feature was dropped, and wisely so.
 
 ### Digging
 
