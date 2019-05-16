@@ -15,7 +15,7 @@ feature_row:
     alt: "The Plight of Knights and Sight"
     title: "The Plight of Knights and Sight"
     excerpt: "A 3D video game prototype produced in 10 weeks for the 2018 submission for the Ubisoft Game Lab competition.
-	A networked 2-player puzzle game where player's have different perceptions of the level they inhabit.
+	A networked 2-player puzzle game where players have different perceptions of the level they inhabit.
 	2 Xbox controllers and a LAN connection is required."
     url: "/plight/"
     btn_class: "btn--primary"
@@ -70,7 +70,8 @@ feature_row6:
     alt: "Pipe Dream"
     title: "Pipe Dream"
     excerpt: 'A 2D video game prototype produced in 48 hours for the [12th edition of the NAD Creative Jam](https://itch.io/jam/creative-jam-12).
-	A puzzle-platformer where the player travels through the semi-ruined dreamscape of a pipe world, collecting stray memories with their friendly drone'
+	A puzzle-platformer where the player travels through the semi-ruined dreamscape of a pipe world, collecting stray memories with their friendly drone. 
+	1 Xbox controller required.'
     btn_class: "btn--primary"
     download: "https://github.com/Yisas/NADCreativeJam2018/releases/download/v1.0/Pipe.Dream.rar"
     github: "https://github.com/Yisas/NADCreativeJam2018"
@@ -119,6 +120,17 @@ feature_row10:
     download: "https://github.com/Yisas/COMP477-Key-Frame-Animation/releases/download/1.0/Keyframe.Interpolation.zip"
     github: "https://github.com/Yisas/COMP477-Key-Frame-Animation"
 
+feature_row11:
+  - image_path: /assets/images/game-splash-images/come-fly-with-me.png
+    alt: "Come Fly With Me"
+    title: "Come Fly With Me"
+    excerpt: 'A 3D video game prototype produced in 48 hours for the [14th edition of the NAD Creative Jam](https://itch.io/jam/14ieme-creative-jam-). 
+	An extinct hawaiian bird flies through a procedurally generated landscape, searching for mates by following their song. 
+	1 Xbox controller required, headphones heavily suggested.'
+    btn_class: "btn--primary"
+    download: "https://github.com/Yisas/NADCreativeJam14/releases/download/1.0/Come.Fly.With.Me.zip"
+    github: "https://github.com/Yisas/NADCreativeJam14"
+
 ---
 ----
 {% include feature_row id="intro" type="center" %}
@@ -137,8 +149,10 @@ feature_row10:
 
 {% include feature_row id="feature_row10" type="left" %}
 
-{% include feature_row id="feature_row5" type="right" %}
+{% include feature_row id="feature_row11" type="right" %}
 
-{% include feature_row id="feature_row6" type="left" %}
+{% include feature_row id="feature_row5" type="left" %}
 
-{% include feature_row id="feature_row9" type="right" %}
+{% include feature_row id="feature_row6" type="right" %}
+
+{% include feature_row id="feature_row9" type="left" %}

@@ -12,7 +12,7 @@ liner interpolation of quaternions and spherical interpolation of quaternions.
 You can use this demo to appreciate the velocity spikes that euler and matrix modes can produce, as well as the artifacts that quaternion LERP can present (notice the right arm of the gif macarena dance and the 
 legs of the breakdance). The best option is the SLERP, which not only produces a constant interpolation velocity with a satisfying curve, but also yields the shortest interpolation path of the methods presented.
 
-{% include figure image_path="/assets/gifs/keyframe-interpolation/macarena.gif" caption="Macarena" %}
+{% include figure image_path="/assets/gifs/keyframe-interpolation/macarena.gif" caption="Eeee macarena!" %}
 
 {% include figure image_path="/assets/gifs/keyframe-interpolation/breakdance.gif" caption="Breakdance" %}
 
