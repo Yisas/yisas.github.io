@@ -106,8 +106,8 @@ feature_row9:
     excerpt: 'A personal project developed for the purpose of learning Unity.
 	A 2D platformer featuring my oldest friends as playable characters, where I used the gameplay to sublty (and not so subtly) poke fun at them.'
     btn_class: "btn--primary"
-    download: "https://github.com/Yisas/Viaje/releases/download/v1.0/Viaje.rar"
-    github: "https://github.com/Yisas/Viaje"
+    download: ""
+    github: ""
 
 feature_row10:
   - image_path: /assets/gifs/keyframe-interpolation/wave.gif
